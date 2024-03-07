@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { StyleSheet, View, Image, Button } from 'react-native';
 import tw from 'twrnc'
+import { NavigationContainer } from '@react-navigation/native';
 
 export default function FrontBody() {
   return (
