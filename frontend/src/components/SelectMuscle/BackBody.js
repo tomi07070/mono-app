@@ -3,24 +3,24 @@ import { StyleSheet, View, Image, Button } from 'react-native';
 import tw from 'twrnc'
 
 
-export default function BackBody() {
+export default function BackBody({navigation}) {
   return (
     <View style={styles.container}>
       <Image source={require('../../../assets/img/hombreEspalda.png')}/>
-      <View style={tw`absolute top-[290px] left-[-60px]`}>
-        <Button title='TRICEPS' color={'#FF8000'}/>
+      <View style={tw`absolute top-[330px] left-[-60px]`}>
+        <Button title='TRICEPS' color={'#FF8000'} onPress={() => navigation.navigate('TRICEPS') }/>
       </View>
-      <View style={tw`absolute top-[270px] left-[180px]`}>
-        <Button title='ESPALDA' color={'#FF8000'}/>
+      <View style={tw`absolute top-[310px] left-[190px]`}>
+        <Button title='ESPALDA' color={'#FF8000'} onPress={() => navigation.navigate('ESPALDA')}/>
       </View>
-      <View style={tw`absolute top-[435px] left-[-50px]`}>
-        <Button title='FEMORAL' color={'#FF8000'}/>
+      <View style={tw`absolute top-[475px] left-[-50px]`}>
+        <Button title='FEMORAL' color={'#FF8000'} onPress={() => navigation.navigate('FEMORALES')}/>
       </View>
-      <View style={tw`absolute top-[370px] left-[180px]`}>
-        <Button title='GLUTEO' color={'#FF8000'}/>
+      <View style={tw`absolute top-[410px] left-[190px]`}>
+        <Button title='GLUTEO' color={'#FF8000'} onPress={() => navigation.navigate('GLUTEO')}/>
       </View>
-      <View style={tw`absolute top-[530px] left-[180px]`}>
-        <Button title='GEMELO' color={'#FF8000'}/>
+      <View style={tw`absolute top-[570px] left-[180px]`}>
+        <Button title='GEMELO' color={'#FF8000'} onPress={() => navigation.navigate('GEMELO')}/>
       </View>
     </View>
   );
