@@ -1,8 +1,8 @@
-import { Text } from "react-native"
 import React from "react"
+import ExerciseCard from "../../components/ExerciseCard"
 
 export default function ABS() {
     return (
-        <Text>ABS</Text>
+        <ExerciseCard/>
     )
 }
