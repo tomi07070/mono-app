@@ -7,11 +7,21 @@ export default function Home({navigation}) {
     return (
         <>
         <View style={tw`mt-[100px]`}>
-            <Button title="Lunes" onPress={()=> navigation.navigate('Select Muscle')}/>
-            <Button title="Martes" onPress={()=> navigation.navigate('Select Muscle')}/>
-            <Button title="Miercoles" onPress={()=> navigation.navigate('Select Muscle')}/>
-            <Button title="Jueves" onPress={()=> navigation.navigate('Select Muscle')}/>
-            <Button title="Viernes" onPress={()=> navigation.navigate('Select Muscle')}/>
+            <View style={tw`p-4`}>
+                <Button title="Lunes" color={'orange'} onPress={()=> navigation.navigate('Routine Page')}/>
+            </View>
+            <View style={tw`p-4`}>
+                <Button title="Martes" color={'orange'} onPress={()=> navigation.navigate('Routine Page')}/>
+            </View>
+            <View style={tw`p-4`}>
+                <Button title="Miercoles" color={'orange'} onPress={()=> navigation.navigate('Routine Page')}/>
+            </View>
+            <View style={tw`p-4`}>
+                <Button title="Jueves" color={'orange'} onPress={()=> navigation.navigate('Routine Page')}/>
+            </View>
+            <View style={tw`p-4`}> 
+                <Button title="Viernes" color={'orange'} onPress={()=> navigation.navigate('Routine Page')}/>
+            </View>
         </View>
         </>
     )

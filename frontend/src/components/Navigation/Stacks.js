@@ -13,6 +13,8 @@ import Femoral from '../../Views/Muscles/Femoral.js'
 import Gluteo from '../../Views/Muscles/Gluteo.js'
 import Gemelo from '../../Views/Muscles/Gemelo.js'
 import Home from '../../Views/Home.js'
+import RoutinePage from '../../Views/RoutinePage.js';
+
 
 export default function NavigationStacks() {
     const Stack = createNativeStackNavigator()
@@ -23,6 +25,7 @@ export default function NavigationStacks() {
                 }} name='HomeScreen' component={Home}/>
                 <Stack.Screen options={{
                 }} name="Select Muscle" component={SelectRoutine} />
+                <Stack.Screen name='Routine Page' component={RoutinePage} />
                 <Stack.Screen name="HOMBRO" component={Hombro} />
                 <Stack.Screen name='BICEPS' component={Bicep} />
                 <Stack.Screen name='ANTE BRAZO' component={antebrazo}/>
