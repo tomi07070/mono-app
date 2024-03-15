@@ -12,7 +12,7 @@ export default function ABS() {
         exercise.name.toLowerCase().includes(searchTerm.toLowerCase())
     );
     return (
-        <View>
+        <View style={tw`mt-[20px]`}>
             <View style={tw`flex items-end mr-[30px]`}>
                 <FontAwesome name="search" size={24} color="white" style={tw`absolute z-1 top-[17px]`}/>
             </View>
