@@ -12,6 +12,8 @@ const exercises = [
     {name: 'V-Ups', image: 'https://newlife.com.cy/wp-content/uploads/2019/11/05071301-Jackknife-Sit-Up_waist_360.gif'},
     {name: 'Hanging Leg Raises', image: 'https://www.inspireusafoundation.org/wp-content/uploads/2022/06/hanging-leg-raise-movement.gif'},
     {name: 'Swiss Ball Crunches', image: 'https://www.fitnessandpower.com/wp-content/uploads/2016/05/stability-ball-crunch.gif'},
+    {name: 'Dead Bug', image: 'https://fitnessprogramer.com/wp-content/uploads/2021/05/Dead-Bug.gif'},
+    {name: 'Oblique Crunches', image: 'https://newlife.com.cy/wp-content/uploads/2019/12/06351301-Oblique-Crunches-Floor_waist_360.gif'}, 
 ]
 
 export default exercises

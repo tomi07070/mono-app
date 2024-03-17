@@ -23,7 +23,7 @@ export default function ABS() {
                 placeholder="Search"
                 placeholderTextColor="white"
             />
-        <ScrollView style={tw`mt-[20px]`}>
+        <ScrollView style={tw`mt-[20px] mb-[60px]`}>
             {filteredExercises.map((exercise, index) => (
             <ExerciseCard
                 key={index}
