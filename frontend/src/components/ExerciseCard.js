@@ -7,7 +7,7 @@ export default function ExerciseCard({ ExerciseName, ImageUrl }) {
     return (
         <View style={tw`bg-white rounded-lg overflow-hidden shadow-md mt-[10px]`}>
             <Image 
-                style={tw`w-full h-70`}
+                style={tw`w-full h-85`}
                 source={{ uri: ImageUrl }} 
                 resizeMode="cover"
             />
