@@ -1,0 +1,20 @@
+const exercises = [   
+    {name: 'Dumbbell Squats', image: 'https://fitnessprogramer.com/wp-content/uploads/2023/09/Dumbbell-Squat.gif'},
+    {name: 'Barbel Squats', image: 'https://codaio.imgix.net/docs/toQ738vXc0/blobs/bl-XSExo-oZTa/c05e276e16fd9514738dde20372561a358e7deba5594d27e4d840e2c8fb32396c58a2a2efc7ebe331c0e581dcffcab1b03007de93a092fc615fb6bb27ffcfe358291165b78e937f72c24da6c41fbdf3c0fa335207a4f3705ef2b85f07e677bc36ce36c1d?auto=format%2Ccompress&fit=max&w=384&h=384'},
+    {name: 'Bodyweight Squats', image: 'https://www.inspireusafoundation.org/wp-content/uploads/2021/06/bodyweight-squat-2.gif'},
+    {name: 'Front Squats', image: 'https://www.kettlebellkings.com/cdn/shop/articles/Front_Squats.gif?v=1694617488'},
+    {name: 'Lunges', image: 'https://fitnessprogramer.com/wp-content/uploads/2023/10/Static-Lunge.gif'},
+    {name: 'Bulgarian Split Squats', image: 'https://www.inspireusafoundation.org/wp-content/uploads/2022/03/bulgarian-split-spuat.gif'},
+    {name: 'Barbel Bulgarian Split Squat', image: 'https://fitnessprogramer.com/wp-content/uploads/2021/05/Barbell-Bulgarian-Split-Squat.gif'},
+    {name: 'Dumbbell Bulgarian Split Squat', image: 'https://www.inspireusafoundation.org/wp-content/uploads/2023/08/deficit-bulgarian-split-squat.gif'},
+    {name: 'Leg Press', image: 'https://media.tenor.com/yBaS_oBgidsAAAAM/gym.gif'},
+    {name: 'Hack Squats', image: 'https://www.docteur-fitness.com/wp-content/uploads/2022/01/hack-squat.gif'},
+    {name: 'Step-Ups', image: 'https://www.inspireusafoundation.org/wp-content/uploads/2022/07/weighted-step-up.gif'},
+    {name: 'Leg Extensions', image: 'https://media.tenor.com/bqKtsSuqilQAAAAM/gym.gif'},
+    {name: 'Sissy Squats', image: 'https://www.docteur-fitness.com/wp-content/uploads/2022/02/sissy-squat.gif'},
+    {name: 'Pistol Squats', image: 'https://i0.wp.com/entrenandoc.com/wp-content/uploads/2023/07/PISTOL-SQUAT-TO-BOX.gif?fit=360%2C360&ssl=1'},
+    {name: 'Kettlebell Sumo Squat', image: 'https://www.inspireusafoundation.org/wp-content/uploads/2021/12/how-to-do-a-kettlebell-sumo-squat.gif'},
+    {name: 'Wall Sits', image: 'https://newlife.com.cy/wp-content/uploads/2019/12/15621301-Exercise-Ball-Wall-Squat_Thighs_360.gif'},
+    {name: 'Leg Press Machine', image: 'https://fitnessprogramer.com/wp-content/uploads/2021/08/Lever-Horizontal-Leg-Press.gif'},
+]
+export default exercises
