@@ -8,19 +8,19 @@ export default function Home({navigation}) {
         <>
         <View style={tw`mt-[100px]`}>
             <View style={tw`p-4`}>
-                <Button title="Lunes" color={'orange'} onPress={()=> navigation.navigate('Routine Page')}/>
+                <Button title="Monday" color={'orange'} onPress={()=> navigation.navigate('Routine Page')}/>
             </View>
             <View style={tw`p-4`}>
-                <Button title="Martes" color={'orange'} onPress={()=> navigation.navigate('Routine Page')}/>
+                <Button title="Tuesday" color={'orange'} onPress={()=> navigation.navigate('Routine Page')}/>
             </View>
             <View style={tw`p-4`}>
-                <Button title="Miercoles" color={'orange'} onPress={()=> navigation.navigate('Routine Page')}/>
+                <Button title="Wednesday" color={'orange'} onPress={()=> navigation.navigate('Routine Page')}/>
             </View>
             <View style={tw`p-4`}>
-                <Button title="Jueves" color={'orange'} onPress={()=> navigation.navigate('Routine Page')}/>
+                <Button title="Thursday" color={'orange'} onPress={()=> navigation.navigate('Routine Page')}/>
             </View>
             <View style={tw`p-4`}> 
-                <Button title="Viernes" color={'orange'} onPress={()=> navigation.navigate('Routine Page')}/>
+                <Button title="Friday" color={'orange'} onPress={()=> navigation.navigate('Routine Page')}/>
             </View>
         </View>
         </>
