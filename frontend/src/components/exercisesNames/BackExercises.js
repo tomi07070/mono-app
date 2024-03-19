@@ -1,0 +1,20 @@
+const exercises = [
+    {name: 'Deadlifts ', image: 'https://i.pinimg.com/originals/5b/18/94/5b1894f6df38af79efd102980698a241.gif'},
+    {name: 'Pull-Ups' , image: 'https://fitnessprogramer.com/wp-content/uploads/2021/02/Pull-up.gif'},
+    {name: 'Barbell Rows' , image: 'https://boxlifemagazine.com/wp-content/uploads//2023/07/image-11.gif'},
+    {name: 'Dumbbell Rows' , image: 'https://newlife.com.cy/wp-content/uploads/2019/11/02931301-Dumbbell-Bent-Over-Row_Back-FIX_360.gif'},
+    {name: 'T-Bar Rows' , image: 'https://i.pinimg.com/originals/a2/cf/5d/a2cf5d462de2446fd77c2237fe21f35e.gif'},
+    {name: 'Seated Cable Rows' , image: 'https://fitnessprogramer.com/wp-content/uploads/2021/02/Seated-Cable-Row.gif'},
+    {name: 'Lat Pulldowns' , image: 'https://fitnessprogramer.com/wp-content/uploads/2021/02/Lat-Pulldown.gif'},
+    {name: 'Cable Rows' , image: 'https://i.pinimg.com/originals/3b/19/fd/3b19fd3ba0efec4c4021d3a58dbdba91.gif'},
+    {name: 'Inverted Rows' , image: 'https://www.inspireusafoundation.org/wp-content/uploads/2022/03/inverted-row.gif'},
+    {name: 'One Arm Dumbbell Row' , image: 'https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Row.gif'},
+    {name: 'Good Mornings' , image: 'https://www.inspireusafoundation.org/wp-content/uploads/2022/09/barbell-good-morning.gif'},
+    {name: 'Renegade Rows' , image: 'https://fitnessprogramer.com/wp-content/uploads/2021/01/dumbbell-renegade-row-1.gif'},
+    {name: 'Rack Pulls' , image: 'https://boxlifemagazine.com/wp-content/uploads//2023/07/image.gif'},
+    {name: 'Dumbbell Shrug' , image: 'https://cdn.shopify.com/s/files/1/0547/0486/5477/files/dumbbell-shrug_480x480.gif?v=1701426774'},
+    {name: 'Barbel Shrug' , image: 'https://www.inspireusafoundation.org/wp-content/uploads/2022/08/barbell-shrug-muscles.gif'},
+    {name: 'Hip Extension' , image: 'https://adictosalgym.com/wp-content/uploads/2022/03/47621301-Glute-Ham-Developer-Hip-Extension_Hips_1080.gif'},
+    {name: 'Machine Lat Pull-Down' , image: 'https://i0.wp.com/entrenandoc.com/wp-content/uploads/2023/07/oie_BVbxsTodZjuq.gif?fit=360%2C360&ssl=1'},
+]
+export default exercises
