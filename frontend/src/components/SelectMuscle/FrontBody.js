@@ -25,9 +25,6 @@ export default function FrontBody({ navigation }) {
       <View style={tw`absolute top-[300px] left-[200px]`}>
         <Button title='ABDOMINALES' color={'#FF8000'} onPress={() => navigation.navigate('ABS')}/>
       </View>
-      <View style={tw`absolute top-[505px] left-[200px]`}>
-        <Button title='SOLEO' color={'#FF8000'} onPress={() => navigation.navigate('SOLEO')}/>
-      </View>
     </View>
   );
 }

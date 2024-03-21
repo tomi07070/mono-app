@@ -6,7 +6,6 @@ import antebrazo from '../../Views/Muscles/antebrazo.js'
 import cuads from '../../Views/Muscles/cuads.js'
 import Pecho from '../../Views/Muscles/Pecho.js'
 import abs from '../../Views/Muscles/abs.js'
-import Soleo from '../../Views/Muscles/Soleo.js'
 import Triceps from '../../Views/Muscles/Triceps.js'
 import Espalda from '../../Views/Muscles/Espalda.js'
 import Femoral from '../../Views/Muscles/Femoral.js'
@@ -32,7 +31,6 @@ export default function NavigationStacks() {
                 <Stack.Screen name='CUADRICEPS' component={cuads}/>
                 <Stack.Screen name='PECHO' component={Pecho}/>
                 <Stack.Screen name='ABS' component={abs}/>
-                <Stack.Screen name='SOLEO' component={Soleo}/>
                 <Stack.Screen name='TRICEPS' component={Triceps}/>
                 <Stack.Screen name='ESPALDA' component={Espalda}/>
                 <Stack.Screen name='FEMORALES' component={Femoral}/>
