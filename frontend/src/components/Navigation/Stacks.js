@@ -14,6 +14,7 @@ import Gemelo from '../../Views/Muscles/Gemelo.js'
 import Home from '../../Views/Home.js'
 import RoutinePage from '../../Views/RoutinePage.js';
 import AddDay from '../../Views/AddDay.js';
+import PreHome from '../../Views/PreHome.js';
 
 export default function NavigationStacks() {
     const Stack = createNativeStackNavigator()
@@ -21,7 +22,9 @@ export default function NavigationStacks() {
             <Stack.Navigator>
                 <Stack.Screen  options={{
                     headerShown: false
-                }} name='HomeScreen' component={Home}/>
+                }} name='HomeScreen' component={PreHome}/>
+                <Stack.Screen  options={{
+                }} name='Plan Screen' component={Home}/>
                 <Stack.Screen options={{
                 }} name="Select Muscle" component={SelectRoutine} />
                 <Stack.Screen name='Routine Page' component={RoutinePage} />
