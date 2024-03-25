@@ -1,32 +1,44 @@
 import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import  Settings  from '../../Views/Settings.js';
+import Settings from '../../Views/Settings.js';
 import NavigationStacks from './Stacks.js';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
-
 export default function NavigationTab() {
-  const Tab = createBottomTabNavigator()
+  const Tab = createBottomTabNavigator();
   return (
-      <>
       <NavigationContainer>
-        <Tab.Navigator>
-          <Tab.Screen options={{
-            headerShown: false,
-            tabBarIcon: ({color , size}) => {
-              <MaterialCommunityIcons name="home" size={size} color={color} />
-            }
+        <Tab.Navigator
+          screenOptions={({ route }) => ({
+            tabBarIcon: ({ focused, color, size }) => {
+              let iconName;
 
-          }} name='Home' component={NavigationStacks}/>
-          <Tab.Screen options={{
-            tabBarIcon: () => {
-              <MaterialCommunityIcons name="cog" size={24} color="black" />
+              if (route.name === 'Home') {
+                iconName = focused ? 'home' : 'home-outline';
+              } else if (route.name === 'settings') {
+                iconName = focused ? 'cog' : 'cog-outline';
+              }
+
+              return <MaterialCommunityIcons name={iconName} size={size} color={color} />;
             },
-          }} name='settings' component={Settings}/>
+            tabBarActiveTintColor: 'tomato',
+            tabBarInactiveTintColor: 'gray',
+          })}
+        >
+          <Tab.Screen
+            options={{
+              headerShown: false,
+            }} 
+            name='Home' 
+            component={NavigationStacks}
+          />
+          <Tab.Screen
+            name='settings' 
+            component={Settings}
+          />
         </Tab.Navigator>
       </NavigationContainer>
-       
-      </>
   );
 }
+
