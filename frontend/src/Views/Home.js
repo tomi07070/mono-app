@@ -41,7 +41,7 @@ export default function Home({ navigation }) {
             <View style={styles.fabContainer}>
                 <TouchableOpacity
                     style={styles.fab}
-                    onPress={() => navigation.navigate('Add Day')}
+                    onPress={()=> navigation.navigate("Add Day")}
                 >
                     <FontAwesome name="plus" size={24} color="white" />
                 </TouchableOpacity>

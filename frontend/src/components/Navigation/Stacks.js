@@ -13,8 +13,10 @@ import Gluteo from '../../Views/Muscles/Gluteo.js'
 import Gemelo from '../../Views/Muscles/Gemelo.js'
 import Home from '../../Views/Home.js'
 import RoutinePage from '../../Views/RoutinePage.js';
-import AddDay from '../../Views/AddDay.js';
 import PreHome from '../../Views/PreHome.js';
+import AddDay from '../AddDay.js';
+
+
 
 export default function NavigationStacks() {
     const Stack = createNativeStackNavigator()
