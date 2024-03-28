@@ -4,6 +4,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Settings from '../../Views/Settings.js';
 import NavigationStacks from './Stacks.js';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import AllExercises from '../../Views/AllExercises.js';
 
 export default function NavigationTab() {
   const Tab = createBottomTabNavigator();
@@ -16,13 +17,15 @@ export default function NavigationTab() {
 
               if (route.name === 'Home') {
                 iconName = focused ? 'home' : 'home-outline';
-              } else if (route.name === 'settings') {
+              } else if (route.name === 'Exercises') {
+                iconName = 'dumbbell' }
+              else if (route.name === 'settings') {
                 iconName = focused ? 'cog' : 'cog-outline';
               }
 
               return <MaterialCommunityIcons name={iconName} size={size} color={color} />;
             },
-            tabBarActiveTintColor: 'tomato',
+            tabBarActiveTintColor: 'orange',
             tabBarInactiveTintColor: 'gray',
           })}
         >
@@ -32,6 +35,13 @@ export default function NavigationTab() {
             }} 
             name='Home' 
             component={NavigationStacks}
+          />
+          <Tab.Screen
+            options={{
+              headerShown: false,
+            }}
+            name='Exercises' 
+            component={AllExercises}
           />
           <Tab.Screen
             name='settings' 

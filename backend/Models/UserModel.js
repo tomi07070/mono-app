@@ -5,21 +5,22 @@ const userSchema = new mongoose.Schema(
           fullname: {
                type: String,
                required: true
-          },  
-     username: {
-            type: String,
-            required: true,
-       },
-       password: {
-            type: String,
-            required: true,
-            minlength: 6,
-       },
-       gender: {
-            type: String,
-            required: true,
-            enum: ["male", "female"],
-       } 
+          },
+          gender: {
+               type: String,
+               required: true,
+               enum: ["male", "female"],
+          },
+          goals: {
+               type: String,
+               required: true,
+               enum: ["losing weigth", "gaining muscle", "maintenence"]
+          },
+          notifications: {
+               type: String,
+               required: true,
+               enum: ["usually", "often", "hardly ever"]
+          } 
     },
     {timestamps: true}
 )
