@@ -1,4 +1,4 @@
-const exercises = [
+const exercises9 = [
     {name: 'Barbell Bench Press', image: 'https://fitnessprogramer.com/wp-content/uploads/2021/02/Barbell-Bench-Press.gif'},
     {name: 'Dumbbell Bench Press', image: 'https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Press.gif'},
     {name: 'Incline Dumbbell Press', image: 'https://fitnessprogramer.com/wp-content/uploads/2021/02/Incline-Dumbbell-Press.gif'},
@@ -14,4 +14,4 @@ const exercises = [
     {name: 'Barbel Floor Press', image: 'https://www.inspireusafoundation.org/wp-content/uploads/2023/08/barbell-floor-press.gif'},
     {name: 'Chest Press with Resistance Bands', image: 'https://fitnessprogramer.com/wp-content/uploads/2022/01/Band-Standing-Chest-Press.gif'},
 ]
-export default exercises
+export default exercises9

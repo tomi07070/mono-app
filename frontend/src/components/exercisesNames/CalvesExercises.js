@@ -1,4 +1,4 @@
-const exercises = [
+const exercises4 = [
     {name: 'Standing Calfs Raises', image: 'https://www.meanmuscles.com/wp-content/uploads/2020/09/13731301-Bodyweight-Standing-Calf-Raise_Calves_360.gif'},
     {name: 'Standing Barbel Calfs Raises', image: 'https://fitnessprogramer.com/wp-content/uploads/2022/04/Standing-Barbell-Calf-Raise.gif'},
     {name: 'Standing Dumbbell Calfs Raises', image: 'https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Calf-Raise.gif'},
@@ -12,4 +12,4 @@ const exercises = [
     {name: 'Calf Raises with Resistance Bands', image: 'https://fitnessprogramer.com/wp-content/uploads/2022/05/Calf-Raise-with-Resistance-Band.gif'},
     {name: 'Calf Press on Hack Squat Machine', image: 'https://i.pinimg.com/originals/93/bb/21/93bb21f90a649a25fc6b7d7ac66cabe0.gif'},
 ]
-export default exercises
+export default exercises4

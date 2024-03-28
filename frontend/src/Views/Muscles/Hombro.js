@@ -1,14 +1,14 @@
 import { View, TextInput, ScrollView } from "react-native"
 import React, {useState} from "react"
 import ExerciseCard from "../../components/ExerciseCard";
-import exercises from "../../components/exercisesNames/HombroExercises";
+import exercises8 from "../../components/exercisesNames/HombroExercises";
 import tw from 'twrnc'
 import { FontAwesome } from '@expo/vector-icons';
 
 export default function HOMBRO() {
     const [searchTerm, setSearchTerm] = useState("");
 
-    const filteredExercises = exercises.filter(exercise =>
+    const filteredExercises = exercises8.filter(exercise =>
         exercise.name.toLowerCase().includes(searchTerm.toLowerCase())
     );
     return (

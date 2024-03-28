@@ -1,4 +1,4 @@
-const exercises = [
+const exercises10 = [
     {name: 'Triceps Dips', image: 'https://fitnessprogramer.com/wp-content/uploads/2021/02/Triceps-Dips.gif'},
     {name: 'Close Grip Bench Press', image: 'https://fitnessprogramer.com/wp-content/uploads/2021/02/Close-Grip-Bench-Press.gif'},
     {name: 'Triceps Rope Push-Down', image:'https://newlife.com.cy/wp-content/uploads/2019/11/02001301-Cable-Pushdown-with-rope-attachment_Upper-Arms_360.gif'},
@@ -16,4 +16,4 @@ const exercises = [
     {name: 'Single-Arm Tricep Pushdowns', image: 'https://fitnessprogramer.com/wp-content/uploads/2021/02/One-Arm-Reverse-Push-Down.gif'},
 ]
 
-export default exercises
+export default exercises10

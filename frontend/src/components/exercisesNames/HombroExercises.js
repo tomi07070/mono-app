@@ -1,4 +1,4 @@
-const exercises = [
+const exercises8 = [
     {name: 'Overhead Press', image: 'https://fitnessprogramer.com/wp-content/uploads/2021/07/Barbell-Standing-Military-Press.gif'},
     {name: 'Arnold Press', image: 'https://newlife.com.cy/wp-content/uploads/2019/11/21371301-Dumbbell-Arnold-Press_Shoulders_360.gif'},
     {name: 'Dumbbell Lateral Raise', image: 'https://newlife.com.cy/wp-content/uploads/2019/11/22341301-Dumbbell-Standing-Lateral-Raise-female_Shoulders_360.gif'},
@@ -15,4 +15,4 @@ const exercises = [
     {name: 'Pike Push-Ups', image: 'https://fitnessprogramer.com/wp-content/uploads/2021/06/Bench-Pike-Push-up.gif'},
     {name: 'Resistance Band Pull-Aparts', image: 'https://fitnessprogramer.com/wp-content/uploads/2021/06/Band-pull-apart.gif'}
 ]
-export default exercises
+export default exercises8

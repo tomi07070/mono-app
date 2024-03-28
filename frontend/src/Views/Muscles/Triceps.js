@@ -1,14 +1,14 @@
 import { View, TextInput, ScrollView } from "react-native"
 import React, {useState} from "react"
 import ExerciseCard from "../../components/ExerciseCard.js";
-import exercises from "../../components/exercisesNames/TricepsExercises.js";
+import exercises10 from "../../components/exercisesNames/TricepsExercises.js";
 import tw from 'twrnc'
 import { FontAwesome } from '@expo/vector-icons';
 
 export default function Triceps() {
     const [searchTerm, setSearchTerm] = useState("");
 
-    const filteredExercises = exercises.filter(exercise =>
+    const filteredExercises = exercises10.filter(exercise =>
         exercise.name.toLowerCase().includes(searchTerm.toLowerCase())
     );
     return (

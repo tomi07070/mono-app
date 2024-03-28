@@ -1,4 +1,4 @@
-const exercises = [
+const exercises3 = [
     {name: 'Barbell Curl', image: 'https://fitnessprogramer.com/wp-content/uploads/2021/02/Barbell-Curl.gif'},
     {name: 'Dumbbell Curl', image: 'https://newlife.com.cy/wp-content/uploads/2019/11/23211301-Dumbbell-Standing-Inner-Biceps-Curl-version-2_Upper-Arms_360.gif'},
     {name: 'Hammer Curl', image: 'https://www.inspireusafoundation.org/wp-content/uploads/2022/04/dumbbell-hammer-curl.gif'},
@@ -13,4 +13,4 @@ const exercises = [
     {name: 'Bayesian Curl', image: 'https://www.inspireusafoundation.org/wp-content/uploads/2022/10/bayesian-curl.gif'},
 ]
 
-export default exercises
+export default exercises3

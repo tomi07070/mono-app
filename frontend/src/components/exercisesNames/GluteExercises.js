@@ -1,4 +1,4 @@
-const exercises = [
+const exercises7 = [
     {name: 'Barbel Hip Trust', image: 'https://biomecanicadeportiva.cl/wp-content/uploads/2021/04/barbellhipthrust.gif'},
     {name: 'Cable Pull Through', image: 'https://www.inspireusafoundation.org/wp-content/uploads/2023/07/cable-pull-through.gif'},
     {name: 'Cable Kickback', image: 'https://www.inspireusafoundation.org/wp-content/uploads/2022/01/cable-kickback.gif'},
@@ -8,4 +8,4 @@ const exercises = [
     {name: 'Reverse Lunges', image: 'https://homeworkouts.org/wp-content/uploads/anim-reverse-lunges.gif'},
     {name: 'Cable Hip Abduction', image: 'https://newlife.com.cy/wp-content/uploads/2019/12/08791301-Cable-hip-abduction-version-2_Hips_360.gif'},
 ]
-export default exercises
+export default exercises7

@@ -1,14 +1,14 @@
 import { View, TextInput, ScrollView } from "react-native"
 import React, {useState} from "react"
 import ExerciseCard from "../../components/ExerciseCard.js";
-import exercises from "../../components/exercisesNames/CalvesExercises.js";
+import exercises4 from "../../components/exercisesNames/CalvesExercises.js";
 import tw from 'twrnc'
 import { FontAwesome } from '@expo/vector-icons';
 
 export default function GEMELO() {
     const [searchTerm, setSearchTerm] = useState("");
 
-    const filteredExercises = exercises.filter(exercise =>
+    const filteredExercises = exercises4.filter(exercise =>
         exercise.name.toLowerCase().includes(searchTerm.toLowerCase())
     );
     return (

@@ -1,4 +1,4 @@
-const exercises = [
+const exercises2 = [
     {name: 'Deadlifts ', image: 'https://i.pinimg.com/originals/5b/18/94/5b1894f6df38af79efd102980698a241.gif'},
     {name: 'Pull-Ups' , image: 'https://fitnessprogramer.com/wp-content/uploads/2021/02/Pull-up.gif'},
     {name: 'Barbell Rows' , image: 'https://boxlifemagazine.com/wp-content/uploads//2023/07/image-11.gif'},
@@ -17,4 +17,4 @@ const exercises = [
     {name: 'Hip Extension' , image: 'https://adictosalgym.com/wp-content/uploads/2022/03/47621301-Glute-Ham-Developer-Hip-Extension_Hips_1080.gif'},
     {name: 'Machine Lat Pull-Down' , image: 'https://i0.wp.com/entrenandoc.com/wp-content/uploads/2023/07/oie_BVbxsTodZjuq.gif?fit=360%2C360&ssl=1'},
 ]
-export default exercises
+export default exercises2
