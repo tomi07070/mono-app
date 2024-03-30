@@ -14,7 +14,6 @@ import Gemelo from '../../Views/Muscles/Gemelo.js'
 import Home from '../../Views/Home.js'
 import RoutinePage from '../../Views/RoutinePage.js';
 import PreHome from '../../Views/PreHome.js';
-import AddDay from '../AddDay.js';
 
 
 
@@ -30,7 +29,6 @@ export default function NavigationStacks() {
                 <Stack.Screen options={{
                 }} name="Select Muscle" component={SelectRoutine} />
                 <Stack.Screen name='Routine Page' component={RoutinePage} />
-                <Stack.Screen name="Add Day" component={AddDay} />
                 <Stack.Screen name="HOMBRO" component={Hombro} />
                 <Stack.Screen name='BICEPS' component={Bicep} />
                 <Stack.Screen name='ANTE BRAZO' component={antebrazo}/>
