@@ -5,6 +5,7 @@ import Settings from '../../Views/Settings.js';
 import NavigationStacks from './Stacks.js';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import AllExercises from '../../Views/AllExercises.js';
+import PreMadeRoutines from '../../Views/PreMadeRoutines.js';
 
 export default function NavigationTab() {
   const Tab = createBottomTabNavigator();
@@ -19,6 +20,9 @@ export default function NavigationTab() {
                 iconName = focused ? 'home' : 'home-outline';
               } else if (route.name === 'Exercises') {
                 iconName = 'dumbbell' }
+                else if (route.name === 'Routines') {
+                  iconName = focused ? 'arm-flex' : 'arm-flex-outline';
+                }
               else if (route.name === 'settings') {
                 iconName = focused ? 'cog' : 'cog-outline';
               }
@@ -42,6 +46,10 @@ export default function NavigationTab() {
             }}
             name='Exercises' 
             component={AllExercises}
+          />
+          <Tab.Screen
+            name='Routines' 
+            component={PreMadeRoutines}
           />
           <Tab.Screen
             name='settings' 
