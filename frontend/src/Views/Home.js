@@ -68,8 +68,14 @@ export default function Home({ navigation }) {
               onChangeText={setNewDay}
               style={styles.input}
             />
-            <Button title="Add Day" onPress={addDay} color={"orange"} />
-            <Button title="Close" onPress={() => setIsModalVisible(false)} color="red" />
+            <FontAwesome
+              name="check"
+              size={24}
+              onPress={addDay}
+              color={"orange"}
+              style={tw`bg-orange-500 text-white font-bold py-2 px-4 rounded mt-5`}
+            />
+            <FontAwesome name="close" style={tw`absolute top-2 left-69`} size={35} onPress={() => setIsModalVisible(false)} color="red" />
           </View>
         </View>
       </Modal>
@@ -110,7 +116,7 @@ const styles = StyleSheet.create({
     margin: 20,
     backgroundColor: "white",
     borderRadius: 20,
-    padding: 35,
+    padding: 50,
     alignItems: "center",
     shadowColor: "#000",
     shadowOffset: {
@@ -127,5 +133,8 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     padding: 10,
     width: 200,
+    borderRadius: 20,
+    fontSize: 16,
+    color: 'black'
   },
 });
